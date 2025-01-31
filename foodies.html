@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Foodies Paradise</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-smooth-scroll="true">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://i.postimg.cc/y8PB00mk/Dark-Green-Cute-and-Playful-Kitchen-Restaurant-Logo.png" alt="Foodies Logo" class="foodies">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#menu">Menu</a>
+                    <a class="nav-link" href="#recipes">Recipes</a>
+                    <a class="nav-link" href="#blog">Blog</a>
+                    <a class="nav-link" href="#about">About Us</a>
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="banner-section" id="menu">
+        <div class="container">
+            <div class="banner-content">
+                <h1 class="banner-heading">Welcome to Foodies Paradise</h1>
+                <p class="banner-subheading">Every bite tells a delicious story!</p>
+                <div class="banner-buttons">
+                    <a href="#recipes" class="btn btn-primary">Explore Recipes</a>
+                    <a href="#order" class="btn btn-secondary">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="recipe-section" id="recipes">
+        <div class="container">
+            <h2 class="section-title">Featured Recipes</h2>
+            <div class="recipe-cards">
+                <div class="recipe-card">
+                    <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2" alt="Salmon" />
+                    <h3>Salmon</h3>
+                    <p>Heart-healthy omega-3s, perfect for your day!</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="https://images.unsplash.com/photo-1473093226795-af9932fe5856" alt="Spinach" />
+                    <h3>Spinach</h3>
+                    <p>Rich in vitamins for skin and immunity.</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="https://images.unsplash.com/photo-1623428188474-b1d532c5e560" alt="Quinoa" />
+                    <h3>Quinoa</h3>
+                    <p>Plant-based protein for energy and recovery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <h2 class="section-title">Our Latest Blog Posts</h2>
+            <div class="blog-cards">
+                <div class="blog-card">
+                    <img src="https://images.pexels.com/photos/6937476/pexels-photo-6937476.jpeg" class="card-img-top" alt="Blog Post 1">
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title">Healthy Eating Tips</h3>
+                        <p class="card-text">Discover simple tips to eat healthier every day, and improve your overall wellbeing.</p>
+                        <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#blogModal1">Read More</button>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.pexels.com/photos/29266883/pexels-photo-29266883.jpeg" class="card-img-top" alt="Blog Post 2">
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title">10 Quick Recipes</h3>
+                        <p class="card-text">In need of quick meal ideas? Check out these easy recipes for a busy lifestyle!</p>
+                        <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#blogModal2">Read More</button>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.pexels.com/photos/6544390/pexels-photo-6544390.jpeg" class="card-img-top" alt="Blog Post 3">
+                    <div class="card-body d-flex flex-column">
+                        <h3 class="card-title">Plant-Based Meals</h3>
+                        <p class="card-text">Learn about the amazing benefits of incorporating more plant-based meals into your diet.</p>
+                        <button class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#blogModal3">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Modals -->
+    <div class="modal fade" id="blogModal1" tabindex="-1" aria-labelledby="blogModalLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="blogModalLabel1">Healthy Eating Tips</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Discover simple tips to eat healthier every day, and improve your overall wellbeing. Eating a balanced diet rich in fruits, vegetables, whole grains, and lean proteins can help boost your energy levels, improve your mood, and reduce the risk of chronic diseases. Remember to stay hydrated, control portion sizes, and limit processed foods. Small changes in your daily eating habits can lead to significant improvements in your overall health and well-being.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="blogModal2" tabindex="-1" aria-labelledby="blogModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="blogModalLabel2">10 Quick Recipes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>In need of quick meal ideas? Check out these easy recipes for a busy lifestyle! 1. One-pan chicken and vegetables, 2. 15-minute stir-fry, 3. Microwave mug omelette, 4. Instant pot chili, 5. 5-ingredient pasta salad, 6. Avocado toast with poached egg, 7. Greek yogurt parfait, 8. Tuna salad lettuce wraps, 9. Veggie-loaded quesadillas, 10. No-bake energy balls. These recipes are perfect for those days when you're short on time but still want a nutritious meal.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="blogModal3" tabindex="-1" aria-labelledby="blogModalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="blogModalLabel3">Plant-Based Meals</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Learn about the amazing benefits of incorporating more plant-based meals into your diet. Plant-based diets have been shown to reduce the risk of heart disease, lower blood pressure, and improve overall health. They're also environmentally friendly and can be budget-friendly. Some delicious plant-based meal ideas include: lentil curry, vegetable stir-fry with tofu, quinoa and black bean bowls, and roasted vegetable pasta. Remember to ensure you're getting all necessary nutrients, especially protein, vitamin B12, and iron.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="order-section" id="order">
+        <div class="container">
+            <h2 class="section-title">Order for healthy </h2>
+            <p class="section-subtitle">Delicious, nutritious meals delivered to your doorstep</p>
+
+            <div class="promo-banner">
+                <span class="promo-tag">New Customer?</span>
+                <h3>Special Welcome! 20% Off for First-Time Foodies!</h3>
+                <p>Use code: <strong>Foodies20</strong> at checkout</p>
+            </div>
+
+            <div class="order-grid">
+                <div class="order-card">
+                    <div class="order-card-image">
+                        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="Power Bowl" />
+                        <span class="order-card-tag">Bestseller</span>
+                    </div>
+                    <div class="order-card-content">
+                        <h3>Power Bowl</h3>
+                        <p>Quinoa, grilled chicken, avocado, and mixed greens</p>
+                        <div class="order-card-footer">
+                            <span class="actual-price">619/-</span>
+                            <span class="price">499/-</span>
+                            <button class="btn-order">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-card">
+                    <div class="order-card-image">
+                        <img src="https://images.pexels.com/photos/406152/pexels-photo-406152.jpeg" alt="Grilled Salmon" />
+                        <span class="order-card-tag">New</span>
+                    </div>
+                    <div class="order-card-content">
+                        <h3>Grilled Salmon</h3>
+                        <p>Wild-caught salmon with roasted vegetables</p>
+                        <div class="order-card-footer">
+                            <span class="actual-price">869/-</span>
+                            <span class="price">699/-</span>
+                            <button class="btn-order">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-card">
+                    <div class="order-card-image">
+                        <img src="https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg" alt="Vegan Delight" />
+                        <span class="order-card-tag">Vegan</span>
+                    </div>
+                    <div class="order-card-content">
+                        <h3>Vegan Delight</h3>
+                        <p>Buddha bowl with fresh vegetables and tahini dressing</p>
+                        <div class="order-card-footer">
+                            <span class="actual-price">599/-</span>
+                            <span class="price">399/-</span>
+                            <button class="btn-order">
+                                <i class="fas fa-shopping-cart"></i>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gift-coupon-section">
+                <div class="gift-card">
+                    <h3>Give the Gift of Health</h3>
+                    <p>Purchase a Foodies Paradise gift card for your loved ones.</p>
+                    <button class="btn-gift-card">Buy Gift Card</button>
+                </div>
+                <div class="coupon-code">
+                    <h3>Have a Coupon?</h3>
+                    <form class="coupon-form">
+                        <input type="text" placeholder="Enter coupon code" class="coupon-input">
+                        <button type="submit" class="btn-apply-coupon">Apply</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="order-cta">
+                <a href="#full-menu" class="btn-view-menu">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <p class="about-subtitle">Passionate about food, health, and you</p>
+            <div class="about-content">
+                <div class="about-feature">
+                    <div class="feature-icon">
+                        <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg" alt="Fresh Ingredients" />
+                    </div>
+                    <div class="feature-content">
+                        <h3>Fresh, Quality Ingredients</h3>
+                        <p>We source only the freshest, highest-quality ingredients to ensure that every meal is not just delicious, but also nutritious.</p>
+                    </div>
+                </div>
+                <div class="about-showcase">
+                    <h2>Healthy Living Through Better Food</h2>
+                    <p>At Foodies Paradise, we believe that good food is the foundation of a happy and healthy life. Our mission is to bring you delicious, nutritious meals that nourish your body and delight your taste buds.</p>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <span class="stat-number">10k+</span>
+                            <span class="stat-label">Happy Customers</span>
+                            <i class="fa-regular fa-face-smile"></i>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Recipes</span>
+                            <i class="fa-solid fa-utensils"></i>
+
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Expert Chefs</span><i class="fa-regular fa-user-chef"></i>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="about-feature">
+                    <div class="feature-icon">
+                        <img src="https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg" alt="Expert Chefs" />
+                    </div>
+                    <div class="feature-content">
+                        <h3>Expert Chefs</h3>
+                        <p>Our team of experienced chefs crafts each recipe with care, balancing flavor and nutrition to perfection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h4> Follow Us </h4>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <p>&copy; 2025 Foodies Paradise. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
